@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",        // modern JS
+    "module": "commonjs",      // Node’s module system
+    "strict": true,            // enables all strict type-checks
+    "esModuleInterop": true,   // better import compatibility
+    "outDir": "dist",          // compiled JS goes here
+    "rootDir": "src"           // your .ts files live here
+  }
+}
