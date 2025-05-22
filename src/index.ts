@@ -1,1 +1,5 @@
-console.log("TypeScript is running!");
+import { EventLoop } from "./eventLoop";
+
+const example = new EventLoop()
+
+console.log(example)
